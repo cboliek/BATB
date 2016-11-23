@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Bilbo+Swash+Caps|Euphoria+Script|Pacifico');
+
+
+.container-fluid {
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+img.roses {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1700px) { /* Specific to this particular image */
+  /*img.roses {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+
+}
+
+div.container {
+  background-color: grey;
+  height: auto;
+  width:  80%;
+  margin: 20px, 30px, 20px ,30px;
+}
+
+div.map {
+  /*margin: 10px, 30px, 10px, 30px;
+  background-color: blue;*/
+}
+
+
+h1, h2 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Bilbo Swash Caps', cursive;
+}
+
+
+
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Alice', serif;
+}
+
+.movie {
+  text-align: center;
+  margin-top: 300px;
+  color: white
+}
+
+/*img {
+  height: 500px;
+  width: 1300px;
+  repeat: none;*/
+}
+
+div.titles {
+  margin-top: 900px;
+}
+
+div.intro {
+  background-color: white;
+}
+
+h4.introduction, h4.stars {
+  color: black;
+  text-align: center;
+}
+
+
+.behind {
+  width: 200px;
+  height: 150px;
+}
+
+
+div.describe {
+  border: 1pt grey solid;
+  /*width: 300px;
+  margin-left: 50px;*/
+  background-color: white;
+}
+
+div.actors {
+  background-color: grey;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .container-fluid {
+        margin-top: -200px;
+
+    }
+
+    div.titles {
+      background-size: 500px;
+
+    }
+
+    .samplemap {
+      width: 100%;
+      height: auto;
+    }
+    div.describe {
+      /*margin-left: 32px;*/
+    }
+
+    div.intro {
+      margin: 0, 0, 0, 0;
+    }
+}
