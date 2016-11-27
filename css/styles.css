@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Alice|Bilbo+Swash+Caps|Euphoria+Script|Pacifico');
-
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alice|Bilbo+Swash+Caps|Euphoria+Script|GFS+Didot|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Halant');
 
 .container-fluid {
   width: 100%;
@@ -26,11 +26,19 @@ img.roses {
   left: 0;
 }
 
-@media screen and (max-width: 1700px) { /* Specific to this particular image */
-  /*img.roses {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
+img.black {
+  min-height: 100%;
+  min-width: 1024px;
 
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 div.container {
@@ -50,7 +58,7 @@ h1, h2 {
   font-size: 50px;
   text-align: center;
   color: white;
-  font-family: 'Bilbo Swash Caps', cursive;
+  font-family: 'Halant', serif;
 }
 
 
@@ -65,9 +73,30 @@ h4 {
 
 .movie {
   text-align: center;
-  margin-top: 300px;
-  color: white
+  margin-top: 270px;
+  color: white;
+  font-family: 'Halant', serif;
+  font-size: 50px;
 }
+
+.date {
+  margin-bottom: 250px;
+  font-size: 30px;
+}
+
+img.logo {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 200px;
+  margin-bottom: 180px;
+}
+
+div.titles {
+  display: none;
+}
+
+
 
 /*img {
   height: 500px;
@@ -76,7 +105,7 @@ h4 {
 }
 
 div.titles {
-  margin-top: 900px;
+  margin-top: 500px;
 }
 
 div.intro {
@@ -105,7 +134,10 @@ div.describe {
 div.actors {
   background-color: grey;
   font-size: 20px;
+  height: 500px;
 }
+
+
 
 @media screen and (max-width: 700px) {
     .container-fluid {
@@ -129,4 +161,21 @@ div.actors {
     div.intro {
       margin: 0, 0, 0, 0;
     }
+
+    img.logo {
+      margin-bottom: 50px;
+    }
+}
+div.names {
+  height: 100px;
+  font-size: 60px;
+}
+
+div.twitter {
+  background-color: white;
+}
+
+img.emma, img.luke, img.dan, img.ian, img.emmat, img.stanley, img.kevin, img.josh {
+  width: 100%;
+  height: 300px;
 }
