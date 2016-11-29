@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Alice|Bilbo+Swash+Caps|Euphoria+Script|GFS+Didot|Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Halant');
 
+body {
+    max-width: 100% !important;
+     overflow-x: hidden !important;
+}
+
 .container-fluid {
-  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 #map {
