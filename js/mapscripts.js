@@ -16,7 +16,7 @@
        // Note: The code uses the JavaScript Array.prototype.map() method to
        // create an array of markers based on a given "locations" array.
        // The map() method here has nothing to do with the Google Maps API.
-    var iconBase = 'images/clip.png';
+    var iconBase = 'images/move.gif';
        var markers = locations.map(function(location, i) {
          return new google.maps.Marker({
            position: location,
