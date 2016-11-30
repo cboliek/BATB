@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Alice|Bilbo+Swash+Caps|Euphoria+Script|GFS+Didot|Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Halant');
-
+/*general sections*/
 body {
     max-width: 100% !important;
      overflow-x: hidden !important;
@@ -14,12 +14,6 @@ body {
 .container {
   max-width: 100% !important;
   overflow-x: hidden !important;
-}
-
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
 }
 
 img.belle {
@@ -37,6 +31,8 @@ img.belle {
   left: 0;
 }
 
+
+
 img.black {
   min-height: 100%;
   min-width: 1024px;
@@ -52,6 +48,14 @@ img.black {
   left: 0;
 }
 
+img.logo {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 200px;
+  margin-bottom: 180px;
+}
+
 div.container {
   background-color: grey;
   height: auto;
@@ -59,11 +63,24 @@ div.container {
   margin: 20px, 30px, 20px ,30px;
 }
 
+/*map css*/
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
 img.roses {
   width: 100%;
   height: auto;
 }
 
+/*text css*/
 h1, h2 {
   font-size: 50px;
   text-align: center;
@@ -72,8 +89,6 @@ h1, h2 {
 }
 
 
-
-}
 h4 {
   font-size: 20px;
   text-align: center;
@@ -94,13 +109,7 @@ h4 {
   font-size: 30px;
 }
 
-img.logo {
-  float: left;
-  width: 100%;
-  height: auto;
-  margin-top: 200px;
-  margin-bottom: 180px;
-}
+
 
 div.titles {
   display: none;
@@ -129,12 +138,6 @@ h4.introduction, h4.stars {
 }
 
 
-div.describe {
-  border: 1pt grey solid;
-  /*width: 300px;
-  margin-left: 50px;*/
-  background-color: white;
-}
 
 div.actors {
   background-color: grey;
@@ -142,6 +145,10 @@ div.actors {
   height: 500px;
 }
 
+div.tumblr {
+  background-color: white;
+  margin: 0;
+}
 
 
 @media screen and (max-width: 700px) {
@@ -170,6 +177,10 @@ div.actors {
     img.logo {
       margin-bottom: 50px;
     }
+
+
+
+
 }
 div.names {
   height: 100px;
@@ -183,12 +194,30 @@ div.twitter {
 img.emma, img.luke, img.dan, img.ian, img.emmat, img.stanley, img.kevin, img.josh {
   width: 100%;
   height: 300px;
+
+}
+
+img.emmacar, img.lukecar, img.dancar, img.iancar, img.emmatcar, img.stanleycar, img.kevincar, img.joshcar {
+  width: 200px;
+  height: 300px;
+  margin-left: 25%;
+
+}
+
+div.imdb {
+  margin-top: 20px;
 }
 
 div#carousel-example-generic {
   height: 400px;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
+}
+
+div.carousel-inner {
+  height: 400px;
+  width: 100%;
+
 }
 
 div#accordion.panel-group {

@@ -16,13 +16,19 @@
        // Note: The code uses the JavaScript Array.prototype.map() method to
        // create an array of markers based on a given "locations" array.
        // The map() method here has nothing to do with the Google Maps API.
-    var iconBase = 'images/move.gif';
+    var iconBase = 'images/flower.png';
+    var contents = [];
+    var infowindows = [];
        var markers = locations.map(function(location, i) {
          return new google.maps.Marker({
            position: location,
            label: labels[i % labels.length],
            icon: iconBase
          });
+
+         marker[i].addListener('click', function() {
+            infowindow.open(map, location);
+          });
        });
 
 
@@ -51,7 +57,10 @@
 
 
      var infowindow = new google.maps.InfoWindow({
-       content: contentString
+      //  content: contentString
+      position: new google.maps.LatLng(51.406045, -0.465879),
+        map: map,
+        title: 'samplemarker'
      });
 
        // Add a marker clusterer to manage the markers.
@@ -63,9 +72,7 @@
        {lat: 51.5074, lng: -0.1278}
      ]
 
-     marker.addListener('click', function() {
-        infowindow.open(map, location);
-      });
+
 
 
 
