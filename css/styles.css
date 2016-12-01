@@ -117,10 +117,19 @@ div.#feeds {
 }
 
 div.magic {
-  background-color: white;
+  background-color: black;
+  opacity: 0.8;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: white;
 }
+
+div.intro {
+  background-color: black;
+  opacity: 0.8;
+}
+
+
 
 .trailer {
   margin-left: 200px;
@@ -144,6 +153,9 @@ div.carousel-caption{
   margin-left: 300px;
   border: 1pt solid white;
   padding-right: 10px;
+  height: 300px;
+
+
 }
 
 
@@ -159,12 +171,10 @@ div.titles {
   margin-top: 500px;
 }
 
-div.intro {
-  background-color: white;
-}
+
 
 h4.introduction, h4.stars {
-  color: black;
+  color: white;
   text-align: center;
 }
 
