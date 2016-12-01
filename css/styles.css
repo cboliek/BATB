@@ -126,13 +126,13 @@ div.magic {
 
 div.intro {
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 
 
 .trailer {
-  margin-left: 200px;
+  /*margin-left: 200px;*/
 }
 
 @media screen and (max-width: 800px) {
