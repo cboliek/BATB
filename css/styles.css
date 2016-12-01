@@ -164,52 +164,19 @@ div.tumblr {
 }
 
 
-@media screen and (max-width: 700px) {
-    .container-fluid {
-        margin-top: -200px;
 
-    }
-
-    div.titles {
-      background-size: 500px;
-
-    }
-
-    .samplemap {
-      width: 100%;
-      height: auto;
-    }
-    div.describe {
-      /*margin-left: 32px;*/
-    }
-
-    div.intro {
-      margin: 0, 0, 0, 0;
-    }
-
-    img.logo {
-      margin-bottom: 50px;
-    }
-
-
-
-
-}
 div.names {
   height: 100px;
   font-size: 60px;
+  background-color: black;
+  opacity: 0.9;
 }
 
 div.twitter {
   background-color: white;
 }
 
-img.emma, img.luke, img.dan, img.ian, img.emmat, img.stanley, img.kevin, img.josh {
-  width: 100%;
-  height: 300px;
-  margin-top: 3%;
 
-}
 
 img.emmacar, img.lukecar, img.dancar, img.iancar, img.emmatcar, img.stanleycar, img.kevincar, img.joshcar {
   width: 200px;
@@ -239,4 +206,55 @@ div#accordion.panel-group {
   height: 400px;
   width: 100%;
   background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .container-fluid {
+        margin-top: -200px;
+
+    }
+
+    div.titles {
+      background-size: 500px;
+
+    }
+
+    .samplemap {
+      width: 100%;
+      height: auto;
+    }
+    div.describe {
+      /*margin-left: 32px;*/
+    }
+
+    div.intro {
+      margin: 0, 0, 0, 0;
+    }
+
+    img.logo {
+      margin-bottom: 50px;
+    }
+
+    div.carousel-caption{
+      text-align: right;
+      width: 300px;
+      margin-left: 300px;
+      border: 1pt solid white;
+      padding-right: 10px;
+      display: none;
+    }
+
+    img.emmacar, img.lukecar, img.dancar, img.iancar, img.emmatcar, img.stanleycar, img.kevincar, img.joshcar {
+      width: 200px;
+      height: 300px;
+      margin-left: 13%;
+      margin-top: 7%;
+
+
+    }
+
+
+
+
+
 }
