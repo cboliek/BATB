@@ -92,7 +92,7 @@ h1, h2 {
 h4 {
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: black;
   font-family: 'Alice', serif;
 }
 
@@ -107,6 +107,30 @@ h4 {
 .date {
   margin-bottom: 250px;
   font-size: 30px;
+}
+@media and (min-width: 1000px) {
+
+
+div.#feeds {
+  height: 200px;
+}
+}
+
+div.magic {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.trailer {
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .trailer {
+      zoom: 0.5;
+      margin-left: -10px;
+    }
 }
 
 div#carousel-example-generic {
@@ -193,7 +217,7 @@ div.imdb {
 div#carousel-example-generic {
   height: 400px;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 div.carousel-inner {
@@ -206,6 +230,17 @@ div#accordion.panel-group {
   height: 400px;
   width: 100%;
   background-color: white;
+}
+
+@media screen and (max-width: 1000px) {
+div.carousel-caption{
+  text-align: right;
+  width: 300px;
+  margin-left: 200px;
+  border: 1pt solid white;
+  padding-right: 10px;
+  display: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -233,6 +268,10 @@ div#accordion.panel-group {
 
     img.logo {
       margin-bottom: 50px;
+    }
+
+    div.tumblr {
+      zoom: 0.5;
     }
 
     div.carousel-caption{

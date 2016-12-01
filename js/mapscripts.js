@@ -31,7 +31,7 @@
           });
        });
 
-
+       console.log('Markers');
 
        var contentString = '<div id="content">'+
      '<div id="siteNotice">'+
