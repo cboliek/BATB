@@ -109,6 +109,19 @@ h4 {
   font-size: 30px;
 }
 
+div#carousel-example-generic {
+  background-color: black;
+  opacity: 0.9;
+}
+
+div.carousel-caption{
+  text-align: right;
+  width: 300px;
+  margin-left: 300px;
+  border: 1pt solid white;
+  padding-right: 10px;
+}
+
 
 
 div.titles {
@@ -194,13 +207,15 @@ div.twitter {
 img.emma, img.luke, img.dan, img.ian, img.emmat, img.stanley, img.kevin, img.josh {
   width: 100%;
   height: 300px;
+  margin-top: 3%;
 
 }
 
 img.emmacar, img.lukecar, img.dancar, img.iancar, img.emmatcar, img.stanleycar, img.kevincar, img.joshcar {
   width: 200px;
   height: 300px;
-  margin-left: 25%;
+  margin-left: 20%;
+  margin-top: 3%;
 
 }
 
