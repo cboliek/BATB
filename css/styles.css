@@ -202,7 +202,7 @@ div.NY {
 div.tumblr {
   background-color: white;
   margin: 0;
-  width: 100%;
+  width: 50%;
 }
 
 
@@ -293,6 +293,7 @@ div.carousel-caption{
     }
     div.tumblr {
       zoom: 0.5;
+      width: 100%;
     }
 
     div.carousel-caption{
