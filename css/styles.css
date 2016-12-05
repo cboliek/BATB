@@ -66,7 +66,7 @@ div.container {
 /*map css*/
 
 #map {
-  width: 100%;
+  width: 50%;
   height: 400px;
   background-color: grey;
   padding-left: 0px;
@@ -192,9 +192,17 @@ div.actors {
   height: 500px;
 }
 
+div.NY {
+  background-color: white;
+  margin: 0;
+  width: 50%;
+  height: 400px;
+}
+
 div.tumblr {
   background-color: white;
   margin: 0;
+  width: 100%;
 }
 
 
@@ -264,10 +272,7 @@ div.carousel-caption{
 
     }
 
-    .samplemap {
-      width: 100%;
-      height: auto;
-    }
+
     div.describe {
       /*margin-left: 32px;*/
     }
@@ -279,7 +284,13 @@ div.carousel-caption{
     img.logo {
       margin-bottom: 50px;
     }
-
+    #map {
+      width: 100%;
+    }
+    div.NY {
+      width: 100%;
+      height: auto;
+    }
     div.tumblr {
       zoom: 0.5;
     }

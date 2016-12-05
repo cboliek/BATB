@@ -1,3 +1,5 @@
+
+
      function initMap() {
 
        var map = new google.maps.Map(document.getElementById('map'), {
@@ -24,7 +26,10 @@
            position: location,
            label: labels[i % labels.length],
            icon: iconBase
+
+
          });
+
 
          marker[i].addListener('click', function() {
             infowindow.open(map, location);

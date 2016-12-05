@@ -1,6 +1,16 @@
 <?php
-$currentTrendTumblr = $_POST['currentTrendTumblr'];
-$tumblrurl = "https://api.tumblr.com/v2/tagged?tag=" . $currentTrendTumblr . "&api_key=" secret;
+// $client = new Tumblr\API\Client(
+//   'HDpxtBAS3wjBeQRb24JAk5DmjYUp0xbNT6Ww0VXuup5k5h9HrB',
+//   '6pVrsGDCSOQM31hEIB3oJqsuKQCehoUYgesMEpCfyIX9LL8M44',
+//   'a1fWio16CojLzZCGMlltf73DgxVam7cWvIiboMxlnI0OJ9okIe',
+//   '1tGqNXlDNsb8T19orlXRjApJ4uypD3KtnG12sN6CvLR8BcozGm'
+// );
+//
+// // Make the request
+// $client->getUserInfo();
+
+$currentTrendTumblr = $_POST['BeautyAndTheBeast'];
+$tumblrurl = "https://api.tumblr.com/v2/tagged?tag=" . $currentTrendTumblr . //**"&api_key=" secret**/;
 //echo $tumblrurl;
 $tumblrData = file_get_contents($tumblrurl);
 $feed = json_decode($tumblrData, true);
