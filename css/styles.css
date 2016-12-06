@@ -9,11 +9,13 @@ body {
 .container-fluid {
   max-width: 100%;
   overflow-x: hidden !important;
+  margin-top: 20px;
 }
 
 .container {
   max-width: 100% !important;
   overflow-x: hidden !important;
+  background-color: transparent;
 }
 
 img.belle {
@@ -57,7 +59,7 @@ img.logo {
 }
 
 div.container {
-  background-color: grey;
+  background-color: transparent;
   height: auto;
   width:  80%;
   margin: 20px, 30px, 20px ,30px;
@@ -148,10 +150,11 @@ div#carousel-example-generic {
 }
 
 div.carousel-caption{
-  text-align: right;
+  text-align: center;
   width: 300px;
   margin-left: 300px;
-  border: 1pt solid white;
+  font-size: 20px;
+  /*border: 1pt solid white;*/
   padding-right: 10px;
   height: 300px;
 
@@ -187,9 +190,9 @@ h4.introduction, h4.stars {
 
 
 div.actors {
-  background-color: grey;
+  background-color: black;
   font-size: 20px;
-  height: 500px;
+  height: 40px;
 }
 
 div.NY {
@@ -225,6 +228,7 @@ img.emmacar, img.lukecar, img.dancar, img.iancar, img.emmatcar, img.stanleycar, 
   height: 300px;
   margin-left: 20%;
   margin-top: 3%;
+  border: 1pt solid black;
 
 }
 
@@ -244,11 +248,7 @@ div.carousel-inner {
 
 }
 
-div#accordion.panel-group {
-  height: 400px;
-  width: 100%;
-  background-color: white;
-}
+
 
 @media screen and (max-width: 1000px) {
 div.carousel-caption{
@@ -267,18 +267,27 @@ div.carousel-caption{
 
     }
 
+
+
     div.titles {
       background-size: 500px;
 
     }
 
 
-    div.describe {
-      /*margin-left: 32px;*/
-    }
+
 
     div.intro {
-      margin: 0, 0, 0, 0;
+      padding-top: 10px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: -10px;
+      margin-left: 0px;
+    }
+
+    div.magic {
+      margin-bottom: -10px;
+      padding-bottom: 10px;
     }
 
     img.logo {
@@ -286,14 +295,35 @@ div.carousel-caption{
     }
     #map {
       width: 100%;
+      margin-right: 0px;
+      margin-bottom: -10px;
     }
     div.NY {
       width: 100%;
       height: auto;
+      margin-bottom: -10px;
+      margin-top: 0;
+      padding-bottom: 10px;
     }
     div.tumblr {
+      padding-top: 10px;
+      margin-top: -10px;
       zoom: 0.5;
       width: 100%;
+    }
+
+    div.actors {
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+
+    div.twitter {
+      padding-top: 10px;
+    }
+
+    div#carousel-example-generic {
+      margin-top: -10px;
+      padding-top: 10px;
     }
 
     div.carousel-caption{
@@ -308,7 +338,7 @@ div.carousel-caption{
     img.emmacar, img.lukecar, img.dancar, img.iancar, img.emmatcar, img.stanleycar, img.kevincar, img.joshcar {
       width: 200px;
       height: 300px;
-      margin-left: 13%;
+      margin-left: 15%;
       margin-top: 7%;
 
 
